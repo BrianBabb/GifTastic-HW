@@ -1,0 +1,11 @@
+/* css style sheet */
+
+ body{
+     
+    text-align: center;
+    background-image: url("images/415519.jpg");
+    background-attachment: fixed;
+
+}
+div { text-align: center;
+}

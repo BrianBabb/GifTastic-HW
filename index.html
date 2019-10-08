@@ -1,1 +1,69 @@
-html file. 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>GifTastic HW </title>
+</head>
+
+<body class="body">
+    <div class="col-lg-9 container-fluid">
+        <div class="container">
+            <h3>Welcome to the world of the Hidden Leaf</h3>
+            <h6> click the buttons to see some action!! </h6>
+
+            <form id="movie-form">
+                <label for="movie-input"> </label>
+                <input type="text" id="movie-input"><br>
+
+                <!-- Button triggers new movie to be added -->
+                <span>Pick A Konohagakure Ninja </span>
+                <input id="add-movie" type="submit" value="add a Ninja! ">
+            </form>
+
+        </div>
+    </div>
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <div class="col-lg-3">
+
+
+
+        <!-- Movies will Get Dumped Here -->
+        <div id="movies-view"></div>
+        <div id="movie"></div>
+        <div id="images"></div>
+        <br>
+        
+    
+           
+
+        <!--  -->
+        <div class="card">
+               
+            <div class="gifBox">
+                <!-- gif to drop in this location . -->
+                <!-- Movies will Get Dumped Here -->
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="Javascript.js"></script>
+</body>
+
+</html>
